@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87e41fc9-51b1-48f3-8248-3891bfa30d70" name="Changes" comment="set up the general design">
+    <list default="true" id="87e41fc9-51b1-48f3-8248-3891bfa30d70" name="Changes" comment=" handle http request">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajra4code/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ajra4code/chainofresponsabilities/Authenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/chainofresponsabilities/Authenticator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajra4code/chainofresponsabilities/CORDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/chainofresponsabilities/CORDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajra4code/chainofresponsabilities/Compressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/chainofresponsabilities/Compressor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajra4code/chainofresponsabilities/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/chainofresponsabilities/HttpRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajra4code/chainofresponsabilities/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/chainofresponsabilities/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajra4code/chainofresponsabilities/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/chainofresponsabilities/WebServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
@@ -87,11 +84,20 @@
       <option name="project" value="LOCAL" />
       <updated>1713240033814</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=" handle http request">
+      <option name="closed" value="true" />
+      <created>1713240816017</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713240816017</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="set up the general design" />
-    <option name="LAST_COMMIT_MESSAGE" value="set up the general design" />
+    <MESSAGE value=" handle http request" />
+    <option name="LAST_COMMIT_MESSAGE" value=" handle http request" />
   </component>
 </project>
