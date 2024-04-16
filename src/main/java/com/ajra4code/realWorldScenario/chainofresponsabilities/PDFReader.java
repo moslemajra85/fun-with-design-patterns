@@ -1,17 +1,15 @@
 package com.ajra4code.realWorldScenario.chainofresponsabilities;
 
 
-
- import org.apache.tika.exception.TikaException;
- import org.apache.tika.metadata.Metadata;
+import org.apache.tika.exception.TikaException;
+import org.apache.tika.metadata.Metadata;
 import org.apache.tika.parser.ParseContext;
-import org.apache.tika.sax.BodyContentHandler;
 import org.apache.tika.parser.pdf.PDFParser;
- import org.xml.sax.SAXException;
+import org.apache.tika.sax.BodyContentHandler;
+import org.xml.sax.SAXException;
 
- import java.io.File;
+import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class PDFReader extends FileReader {
@@ -44,14 +42,5 @@ public class PDFReader extends FileReader {
          String str = ch.toString();
          System.out.println(str);
     }
-
-
-
-
-
-
-
-
-
 
 }

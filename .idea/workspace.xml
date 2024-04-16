@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87e41fc9-51b1-48f3-8248-3891bfa30d70" name="Changes" comment="Add TextFileReader class">
+    <list default="true" id="87e41fc9-51b1-48f3-8248-3891bfa30d70" name="Changes" comment=" Build PDFReader">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/observer/Chart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/observer/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/observer/ObserverDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/observer/SpreadSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/observer/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ajra4code/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajra4code/realWorldScenario/chainofresponsabilities/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/realWorldScenario/chainofresponsabilities/DataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajra4code/realWorldScenario/chainofresponsabilities/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/realWorldScenario/chainofresponsabilities/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajra4code/realWorldScenario/chainofresponsabilities/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/realWorldScenario/chainofresponsabilities/FileReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ajra4code/realWorldScenario/chainofresponsabilities/PDFReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/realWorldScenario/chainofresponsabilities/PDFReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,9 +34,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2fAMWrFJe0pI9gnVib54xbqgJKo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -42,18 +45,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/moslem/Documents/spring_learning/springboot-jpa-advanced-mapping/common-design-patterns/src/main/java/com/ajra4code/realWorldScenario/chainofresponsabilities",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/moslem/Documents/spring_learning/springboot-jpa-advanced-mapping/common-design-patterns/src/main/java/com/ajra4code/realWorldScenario/chainofresponsabilities&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/ajra4code/realWorldScenario/chainofresponsabilities" />
@@ -123,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713251019604</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=" Build PDFReader">
+      <option name="closed" value="true" />
+      <created>1713257151918</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713257151918</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -131,6 +142,7 @@
     <MESSAGE value=" handle http request" />
     <MESSAGE value="Architect the file reader system without business logic" />
     <MESSAGE value="Add TextFileReader class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add TextFileReader class" />
+    <MESSAGE value=" Build PDFReader" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Build PDFReader" />
   </component>
 </project>
