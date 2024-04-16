@@ -15,7 +15,6 @@ public class PDFReader extends FileReader{
             return false;
         }
 
-
         System.out.println("PDF Reader");
         return true;
 

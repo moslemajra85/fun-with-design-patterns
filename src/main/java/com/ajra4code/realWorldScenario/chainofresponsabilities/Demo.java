@@ -6,7 +6,8 @@ public class Demo {
 
         var pdfReader = new PDFReader(null);
         var spreadSheetReader = new SpreadsheetReader(pdfReader);
-        var dataReader = new DataReader(spreadSheetReader);
+        var textReader = new TextFileReader(spreadSheetReader);
+        var dataReader = new DataReader(textReader);
         dataReader.read("file.pdf");
 
     }
