@@ -1,5 +1,10 @@
 package com.ajra4code.realWorldScenario.chainofresponsabilities;
 
+import org.apache.tika.exception.TikaException;
+import org.xml.sax.SAXException;
+
+import java.io.IOException;
+
 public abstract class FileReader {
     private FileReader next;
 
@@ -8,7 +13,7 @@ public abstract class FileReader {
     }
 
 
-    public void read(String fileName) {
+    public void read(String fileName) throws TikaException, IOException, SAXException {
 
         if(doRead(fileName)) {
             return;
@@ -22,7 +27,7 @@ public abstract class FileReader {
         }
 
     }
-    protected abstract boolean doRead(String fileName);
+    protected abstract boolean doRead(String fileName) throws TikaException, IOException, SAXException;
 
 
 }
