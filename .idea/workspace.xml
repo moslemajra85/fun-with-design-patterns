@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87e41fc9-51b1-48f3-8248-3891bfa30d70" name="Changes" comment=" Build PDFReader">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/observer/Chart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/observer/DataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/observer/ObserverDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/observer/SpreadSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/observer/readme.md" afterDir="false" />
+    <list default="true" id="87e41fc9-51b1-48f3-8248-3891bfa30d70" name="Changes" comment="Observer Pattern in action">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ajra4code/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajra4code/realWorldScenario/chainofresponsabilities/PDFReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/realWorldScenario/chainofresponsabilities/PDFReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -134,8 +127,27 @@
       <option name="project" value="LOCAL" />
       <updated>1713257151918</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Observer Pattern in action">
+      <option name="closed" value="true" />
+      <created>1713284143127</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713284143127</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="set up the general design" />
@@ -143,6 +155,7 @@
     <MESSAGE value="Architect the file reader system without business logic" />
     <MESSAGE value="Add TextFileReader class" />
     <MESSAGE value=" Build PDFReader" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Build PDFReader" />
+    <MESSAGE value="Observer Pattern in action" />
+    <option name="LAST_COMMIT_MESSAGE" value="Observer Pattern in action" />
   </component>
 </project>
