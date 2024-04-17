@@ -1,5 +1,5 @@
 package com.ajra4code.visitor;
 
 public interface HTMLNode {
-    void highlight();
+    void execute(Operation operation);
 }

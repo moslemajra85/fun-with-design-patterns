@@ -1,8 +1,10 @@
 package com.ajra4code.visitor;
 
 public class HeadingNode implements HTMLNode{
+    //extensibility point
     @Override
-    public void highlight() {
-        System.out.println("highlight Heading");
+    public void execute(Operation operation) {
+        operation.apply(this);
+
     }
 }

@@ -10,7 +10,9 @@ public class Demo {
         document.addNode(heading);
         document.addNode(anchor);
 
-        document.highlight();
+        document.execute(new HighlightOperation());
+        document.execute(new PlainTextOperation());
+
 
     }
 }

@@ -14,8 +14,10 @@ public class HTMLDocument {
         nodes.add(node);
     }
 
-
-    public void highlight() {
-        nodes.forEach(HTMLNode::highlight);
+    public void execute(Operation operation) {
+        nodes.forEach(node -> node.execute(operation));
     }
+
+
+
 }
