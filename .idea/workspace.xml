@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87e41fc9-51b1-48f3-8248-3891bfa30d70" name="Changes" comment="Observer Pattern in action">
+    <list default="true" id="87e41fc9-51b1-48f3-8248-3891bfa30d70" name="Changes" comment="Build StatusBar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajra4code/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajra4code/realWorldScenario/observer/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/realWorldScenario/observer/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajra4code/realWorldScenario/observer/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/realWorldScenario/observer/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajra4code/realWorldScenario/observer/StockListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajra4code/realWorldScenario/observer/StockListView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713284143127</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Build StatusBar">
+      <option name="closed" value="true" />
+      <created>1713317334376</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713317334376</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +166,7 @@
     <MESSAGE value="Add TextFileReader class" />
     <MESSAGE value=" Build PDFReader" />
     <MESSAGE value="Observer Pattern in action" />
-    <option name="LAST_COMMIT_MESSAGE" value="Observer Pattern in action" />
+    <MESSAGE value="Build StatusBar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build StatusBar" />
   </component>
 </project>

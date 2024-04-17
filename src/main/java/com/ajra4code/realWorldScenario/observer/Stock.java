@@ -15,7 +15,9 @@ public class Stock implements  Subject{
         this.price = price;
     }
     public void add(Observer observer) {
-        observers.add(observer);
+        if(!observers.contains(observer)) {
+            observers.add(observer);
+        }
     }
     public void remove(Observer observer) {
         observers.remove(observer);
